@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 Wedding House | Pyment Form</title>
+</head>
+
+<body>
+  <form action="">
+    <button><a href="home.html">Back</a></button>
+    <h1>Pyment Form</h1>
+    <h3>Contect Information</h3>
+    <p>Name:* <input text="text" name="name" required ></p>
+    <fieldset>
+      <legend>Gender*</legend>
+      <p>
+        Male <input type="radio" name="radio" id="male" required> Female <input type="radio" name="radio" id="female" required> Other <input type="radio" name="radio" id="other" required>
+      </p>
+  </fieldset>
+  <p>Address: <textarea name="address" id="address" cols="100" rows="5" ></textarea></p>
+  <p>Email:* <input type="email" name="email" id="email" required ></p>
+  <p>Pinocde:* <input type="number" name="pincode" id="pincode" required></p>
+  
+  <h3>Pyment Information</h3>
+  <p>Card Type:*
+    <select>
+      <option>--Select Card Type--</option>
+      <option value="visa" required>Visa</option>
+      <option value="rupay" required>Rupay</option>
+      <option value="debitcard" required>Debit Card</option>
+      <option value="creditcard" required>Credit Card</option>
+    </select>
+  </p>
+  <p>
+    Card Number:* <input type="number" name="card_number" id="card_number" required>
+  </p>
+  <p>
+    Exp. Date:* <input type="date" name="exp_date" id="exp_date" required>
+  </p>
+  <p>
+    CVV Number:* <input type="password" name="cvv_number" id="cvv_number" required>
+  </p>
+  <input type="submit" value="Pay Now">
+
+  </form>
+
+</body>
+
+</html>
